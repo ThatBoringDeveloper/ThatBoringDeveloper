@@ -1,3 +1,4 @@
+/*
 require('dotenv').config();
 const Mustache = require('mustache');
 const fetch = require('node-fetch');
@@ -59,22 +60,23 @@ async function action() {
   /**
    * Fetch Weather
    */
-  await setWeatherInformation();
+  awwait setWeatherInformation();
 
   /**
    * Get pictures
    */
-  await setInstagramPosts();
+  awwait setInstagramPosts();
 
   /**
    * Generate README
    */
-  await generateReadMe();
+  awwait generateReadMe();
 
   /**
    * Fermeture de la boutique 👋
    */
-  await puppeteerService.close();
+  awwait puppeteerService.close();
 }
 
 action();
+*/
